@@ -1,0 +1,8 @@
+data  types 
+
+char = a  single byte mostly any character on the keyboard
+float = this is a 32 bit value this being a number with decimal points 
+double  = is a number than can take twice th amount of space a foat takes 
+int  = Integer a number with 32 bit this being 0 to 4 billion 
+long long = is a 64 it number 
+
