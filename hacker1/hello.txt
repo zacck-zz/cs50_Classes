@@ -43,3 +43,102 @@ We can use the -l option to use to link libraries into your code
 "clang hello.c -Wall -Werror -lcs59 -o hello"
 
 
+
+
+PRECEDENCE -- This is how to determine how what operations to do first 
+
+Rules
+1.Work from the innermost Parenthesis 
+2.When Operators have equal priority you simply solve from left to right 
+e.g for 
+
+3+10/2*(9-1)-1
+
+we first solve "(9-1)"
+hence 
+
+3 + 10 / 2 * 8 - 1
+
+solve division and multiplication since equal value we go left to right hence "10/2"
+hence 
+
+3 + 5 * 8 -1
+
+hence "5*8"
+
+3 + 40 - 1
+
+hence "3+40"
+
+43 - 1
+
+hence "-1"
+
+42
+
+
+Using the decrement and increment operators i.e  prefix form  ++i suffix form i++
+
+i++/i--
+The suffix form value is used in for loops 
+in the suffix form the Current value of i is used for the current operation then incremented/decremented
+
+int x = 5;
+x++;
+printing x here would result in 6
+
+--i/++i
+With the prefix form the current value is incremented/decremented then it is used in the operation  
+
+int x = 5;
+x++;
+x would be 6 here
+++x 
+if we print it here it would be 7 
+
+using pointers
+
+int x = 7;
+//lets make a pointer and set it the address of 7 
+
+int *y = &x;
+
+*y++;// this would point us to the complete wrong address
+to increment 7 via pointer y we would
+
+(*y)++;
+
+
+
+*********************************************************CODE STYLE*************************************
+
+components of code syle
+!.Comments 
+2.Formartting
+3.Variable Names
+
+
+
+COMMENTS
+they have no effect on the operations in your code, Good comments should answer 
+1. What does this block of code Do?
+2. Why did i implement this block of code this way 
+inline commments //..
+Mulitiline comment s
+/*
+*
+*/use this to document functions update this when you update the function 
+
+
+FORMATTING
+1. Using the Enter Key frequently enough to maker sure the code is readable but not so frequent that it becomes unreadable 
+2. Indentation should always be done to bodies of loop or function 
+3. Place braces on their own lines to increase readabilty
+4. Write the return type of the function on the same line as the name 
+
+VARIABLES NAMES 
+1. These should  describe the value of they represent 
+2. Create iterator variables withinloops
+3. use underscores to separate words in varibles  
+4. When declaring pointers place the pointers type rather than the name 
+
