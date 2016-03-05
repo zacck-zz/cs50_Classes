@@ -38,3 +38,8 @@ We can provide anothert option -ggdb this enables debugging information
 "clang hello.c -Wall -Werror -ggdb -o hello"
 
 
+We can use the -l option to use to link libraries into your code
+
+"clang hello.c -Wall -Werror -lcs59 -o hello"
+
+
