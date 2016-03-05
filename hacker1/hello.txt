@@ -1,3 +1,40 @@
 I think this is a linux familiarization process
 The asterisk after  hello  means its an executable 
 
+
+Make Clang 
+make is a utility for compiling source code 
+make is helpful for huge projects
+
+"make hello"
+will compile a hello.c source code file 
+
+when you run "make"
+
+it invokes the c compiler called clang in this case 
+
+it runs clang with a number of options 
+ you can run clang without options like 
+
+
+"clang hello.c"
+
+we can provide -o to produce output to a certain file e.g 
+
+"clang hello.c -o hello"
+
+would produce output to hello file 
+
+we can provide -Wall option to help us check for all the warnings 
+
+"clang hello.c -Wall -o hello"
+
+We can  provide another option to stop compilation incase errors or warnings appear -Werror
+
+"clang hello.c -Wall -Werror -o hello"
+
+We can provide anothert option -ggdb this enables debugging information 
+
+"clang hello.c -Wall -Werror -ggdb -o hello"
+
+
