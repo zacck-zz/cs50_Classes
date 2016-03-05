@@ -50,10 +50,11 @@ int main(void)
     {
         //lets check validity
         int last = 1;
-        char *card_string = calloc(digits, sizeof(char));
+        char* card_string = calloc(digits, sizeof(char));
+        //use this to loop through above array
         int pos = digits;
         
-        //char currStr[1];
+
         //multiply every other number by two
         while (cardNum > 0) {
             int currDigit = cardNum % 10;
