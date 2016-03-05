@@ -1,2 +1,3 @@
 I think this is a linux familiarization process
+The asterisk after  hello  means its an executable 
 
