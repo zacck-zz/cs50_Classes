@@ -6,27 +6,11 @@
 
 
 
-/*
-*THis function counts the number of digits 
-*accepts an int and returns an int
-*/
 
+
+bool startsWith (char* base, char* str)
 int countDigits(long long n)
-{
-    int count = 0;
-    while( n > 0 )
-    {
-        count++;
-        n /= 10;             /* n=n/10 */
-        
-    }
-    return count;
-}
 
-
-bool startsWith (char* base, char* str) {
-    return (strstr(base, str) - base) == 0;
-}
 
 
 
@@ -151,5 +135,29 @@ int main(void)
     return 0;
 }
 
+/*This function retuns a boolean 
+takes in two strings checks if one starts with the other 
+*/
+
+bool startsWith (char* base, char* str) {
+    return (strstr(base, str) - base) == 0;
+}
+
+
+/*
+*THis function counts the number of digits 
+*accepts an long and returns an int
+*/
+int countDigits(long long n)
+{
+    int count = 0;
+    while( n > 0 )
+    {
+        count++;
+        n /= 10;             /* n=n/10 */
+        
+    }
+    return count;
+}
 
 
