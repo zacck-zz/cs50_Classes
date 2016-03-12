@@ -1,0 +1,13 @@
+Differences Between types of Array 
+
+Bracket type - the block of memory assigned will go to the stack 
+when the function returns the bracket array will automatically be deallocated.
+-The bracket array isnt a variable its just a symbol
+sizeof will return size of whole array 
+
+
+
+Pointer type - the block of memory assigned will go to the heap where on the 
+pointer array will need to be freeed 
+pointer type is a variable
+sizeof will retun size of item in array

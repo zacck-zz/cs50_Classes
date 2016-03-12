@@ -1,0 +1,7 @@
+these are used when calling functions 
+
+void 
+
+result value 
+
+sentinel value 
