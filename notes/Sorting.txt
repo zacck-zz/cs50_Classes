@@ -1,0 +1,59 @@
+Week 3 Continued
+
+N/B 
+log n is log to base 2 of n not log to base 19
+
+
+Sorting 
+
+Merge Sort Algorith
+
+given an input of n 
+
+if n < 2 
+    return 
+else 
+    sort left half of elements 
+    sort right half of elements 
+    merge sorted halves 
+
+
+The secret lies in running the above lines over and over (recursion)
+
+This algorithm would run in big O of O(n log n)
+
+T(n) =  O(l) i.e The running time of a problem that takes n elements is equal to big O of 1 if  n is less than 2
+
+
+T(n) = T(n/2) + T(n/2) + O(n)
+
+i.e The running time of a problem that takes in n elements provides that n is 
+greater than or equal to 2 is t of n divided by 2 plus t of n divided by 2 plus
+plus big O of n 
+
+ultimately this is 
+O(n log n)
+
+
+WHAT HAPPENS WHEN YOU COMPILE SOURCE CODE 
+
+when you compile your source code it is outputted by said compiler as assembly code
+after this you the compiler generates object code i,e
+
+Source Code => Assembly Code => Object Code 
+
+when you compile your source code you get assembly code and when you assemble your 
+assembly code you get object code
+
+hello.c > hello.s > hello.o 
+
+in parallel the headers included are also compiled
+
+stio.c > stdio.s > stdio.o
+
+both the .o files are linked into the executable hello 
+
+that clang(the compiler in our case) outputs
+
+
+

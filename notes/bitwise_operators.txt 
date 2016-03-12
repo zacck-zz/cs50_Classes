@@ -1,0 +1,37 @@
+BITWISE OPERATRORS 
+
+this operators work on individual bits.
+
+1. & : The Bitwise and Operator allows one to have a left hand variable and a right hand 
+variable that are anded together  i.e
+    0 & 0 = 0
+    0 & 1 = 0
+    1 & 0 = 0
+    1 & 1 = 1
+    
+    N/B this seem like binary operators to me 
+    
+2. | : The Bitwise Or operator allows one to have a left hand variable and a right hand 
+variable that are or~ed together ie returns a 1 if a one exists in the equation 
+    0 | 0 =  0
+    0 | 1 =  1 
+    1 | 0 =  1
+    1 | 1 =  1
+
+3. ^ : The Bitwise exculisive Or Operator known more as XOR this returns only a one if the inputs are
+exclusive i.e different 
+    0 ^ 0 = 0
+    0 ^ 1 = 1
+    1 ^ 0 = 1 
+    1 ^ 1 = 0
+    
+4. ~ : The Bitwise Unary Operator is applied only one operand this negates a bit 
+    ~ 0 = 1
+    ~ 1 = 0
+
+5. << >> : The Bitwise Left Shift and Right Operators these 
+    1 << 7 = This bit is moved 7 places to the left assuming this is padded with 0s
+    10000000
+    
+    
+

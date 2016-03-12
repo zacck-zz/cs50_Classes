@@ -4,16 +4,8 @@
 #include <string.h>
 #include <stdbool.h>
 
-
-
-
-
-bool startsWith (char* base, char* str)
-int countDigits(long long n)
-
-
-
-
+bool startsWith (char* base, char* str);
+int countDigits(long long n);
 
 int main(void)
 {
@@ -113,7 +105,7 @@ int main(void)
                     printf("INVALID\n");
                 }
             }
-             else if (startsWith("4", card_string))
+             else if (startsWith("4", card_string) )
             {
                     printf("VISA\n");
             }
